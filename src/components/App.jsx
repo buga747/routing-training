@@ -11,6 +11,7 @@ import { RestrictedRoute } from './AuthRoutes/RestrictedRoute';
 import { PrivateRoute } from './AuthRoutes/PrivateRoute';
 
 function App() {
+  console.log('app');
   const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const login = () => {
