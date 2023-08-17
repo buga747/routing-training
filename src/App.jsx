@@ -1,14 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home';
-import About from '../pages/About';
+import Home from './pages/Home';
+import About from './pages/About';
 import { Suspense, useState } from 'react';
-import Layout from './Layout';
-import Store from '../pages/Store';
-import Register from '../pages/Register';
-import Login from '../pages/Login';
-import Cabinet from '../pages/Cabinet';
-import { RestrictedRoute } from './AuthRoutes/RestrictedRoute';
-import { PrivateRoute } from './AuthRoutes/PrivateRoute';
+import Layout from './components/Layout';
+import Store from './pages/Store';
+import Register from './pages/Register';
+import Login from './pages/Login';
+import Cabinet from './pages/Cabinet';
+import { RestrictedRoute } from './components/AuthRoutes/RestrictedRoute';
+import { PrivateRoute } from './components/AuthRoutes/PrivateRoute';
 
 function App() {
   console.log('app');
